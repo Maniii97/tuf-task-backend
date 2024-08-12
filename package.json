@@ -6,7 +6,7 @@
     "start": "ts-node app.ts",
     "build": "tsc",
     "dev": "nodemon app.ts",
-    "vercel-build": "echo 'vercel-build'"
+    "vercel-build": "echo vercel-build"
   },
   "dependencies": {
     "@types/mysql": "^2.15.26",
