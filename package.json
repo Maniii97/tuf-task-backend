@@ -1,7 +1,7 @@
 {
   "name": "tuf-backend",
   "version": "1.0.0",
-  "main": "src/app.ts",
+  "main": "app.ts",
   "scripts": {
     "start": "ts-node app.ts",
     "build": "tsc",
