@@ -1,6 +1,6 @@
 import express, { Request, Response } from 'express';
-import { connectDb } from './database/db';
-import router from './routes/question-route';
+import { connectDb } from './src/database/db';
+import router from "./src/routes/question-route";
 import { config } from 'dotenv';
 import cors from 'cors';
 
